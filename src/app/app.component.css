@@ -1,0 +1,10 @@
+.loading-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    font-family: sans-serif;
+    background: var(--bg-color);
+    color: var(--text-color);
+  }

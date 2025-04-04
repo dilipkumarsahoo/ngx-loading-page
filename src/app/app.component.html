@@ -1,0 +1,40 @@
+
+
+<div style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center; padding: 2rem;">
+  <!-- Loader Types -->
+  <ng-container *ngFor="let loader of loaderTypes">
+    <div
+      style="
+        width: 300px;
+        border-radius: 12px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        background: #fff;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      "
+    >
+      <!-- Loader Component -->
+      <lib-loading-page
+        class="loading-page"
+        [type]="loader.type"
+        [spinnerColor]="loader.color"
+        [backgroundColor]="'transparent'"
+        [textColor]="'#333'"
+        [size]="'small'"
+        [message]="loader.message"
+      ></lib-loading-page>
+
+
+      
+      <!-- Card Content -->
+      <div style="margin-top: 1rem; text-align: center;">
+        <h3 style="margin: 0 0 8px;">{{ loader.label }} Loader</h3>
+        <p>This is a card displaying a "{{ loader.type }}" loading style.</p>
+      </div>
+    </div>
+  </ng-container>
+</div>

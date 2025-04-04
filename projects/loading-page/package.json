@@ -1,0 +1,41 @@
+{
+  "name": "ngx-loading-page",
+  "version": "0.0.1",
+  "description": "A modern and customizable loading page component for Angular applications. Supports multiple loader styles, dynamic themes, background customization, and responsive card-based UI using Bootstrap.",
+  "author": "Dilip Sahoo",
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "ngx",
+    "loading",
+    "loading screen",
+    "loading page",
+    "preloader",
+    "angular loading",
+    "angular loader",
+    "bootstrap loader",
+    "ngx loader",
+    "angular ui loader",
+    "ngx-loading-page",
+    "full page loader",
+    "loading indicator",
+    "angular spinner",
+    "angular preloader"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dilipkumarsahoo/ngx-loading-page.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dilipkumarsahoo/ngx-loading-page/issues"
+  },
+  "homepage": "https://github.com/dilipkumarsahoo/ngx-loading-page#readme",
+  "peerDependencies": {
+    "@angular/common": "^15.2.0",
+    "@angular/core": "^15.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}
