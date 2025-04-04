@@ -1,3 +1,4 @@
+
 # ngx-loading-page
 
 > A modern and customizable loading page component for Angular applications. Supports multiple loader styles, dynamic themes, background customization, and a responsive Bootstrap-based card UI.
@@ -75,7 +76,8 @@ export class AppModule {}
 
 ## 🧪 Demo
 
-Check out the [live demo](#) (coming soon) or clone the [example repo](https://github.com/dilipkumarsahoo/ngx-loading-page) to try it out locally.
+Check out the [**Live Demo on StackBlitz**](https://stackblitz.com/~/github.com/dilipkumarsahoo/ngx-loading-page?file=src/app/app.module.ts:L5)  
+Or clone the [example repo](https://github.com/dilipkumarsahoo/ngx-loading-page) to try it out locally.
 
 ---
 
@@ -102,8 +104,3 @@ MIT © [Dilip Sahoo](https://github.com/dilipkumarsahoo)
 
 Contributions, issues, and feature requests are welcome!  
 Feel free to check [issues page](https://github.com/dilipkumarsahoo/ngx-loading-page/issues) or open a pull request.
-```
-
----
-
-Let me know if you’d like to include example images, demo video/gif, or setup a StackBlitz demo link!
